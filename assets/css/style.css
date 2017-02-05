@@ -93,7 +93,7 @@ p {
 
 #paragraphport {
 	height: 100%;
-	width: 570px;
+	width: 548px;
 	padding: 5px 0px;
 	margin-left: 30px;
 	margin-top: 0px;
@@ -209,9 +209,9 @@ form {
 }
 
 .portimg {
-	height: 200px;
+	height: 190px;
 	float: left;
-	margin-top: 26px;
+	margin: 20PX 10px;
 }
 
 .leftmargin {
@@ -219,6 +219,214 @@ form {
 	height: 200px;
 	float: left;
 	margin-top: 26px;
+}
+
+
+@media screen and (max-width: 980px) {
+
+body { 
+}
+
+#aboutme {
+	width: 400px;
+	height: 100%;
+
+}	
+
+#placeHolderImg{
+	height: 100px;
+}
+
+#paragraph {
+	width: 350px;
+}
+
+.contactme {
+	width: 270px;
+	height: 200px;
+	border: solid 2px grey;
+	float: left;
+	background-color: white;
+	position: absolute;
+	left: 520px;
+	top: 130px;
+}
+
+#paragraphport {
+	height: 100%;
+	width: 350px;
+	padding: 5px 0px;
+	margin-left: 30px;
+	margin-top: 0px;
+	float: left;
+	line-height: 15px;
+	border-top: solid 5px grey;
+	letter-spacing: 2px;
+	font-size: 12px;
+
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	}
+
+	.portimg {
+	height: 190px;
+	float: left;
+	margin: 20px 20px 20px 50px;
+}
+
+}
+
+
+@media screen and (max-width: 768px){ 
+
+body { 
+
+
+}
+
+#aboutme {
+	width: 600px;
+	height: 100%;
+	margin: 20px;
+	float: left;
+	margin-top: 130px;
+
+
+}	
+
+#placeHolderImg{
+	height: 100px;
+}
+
+#paragraph {
+	width: 550px;
+}
+
+.contactme {
+	width: 600px;
+	height: 200px;
+	border: solid 2px grey;
+	float: left;
+	background-color: white;
+	position: relative;
+	top: 10px;
+	left: 20px;
+	margin-bottom: 100px;
+}
+
+#paragraphport {
+	height: 100%;
+	width: 550px;
+	padding: 5px 0px;
+	margin-left: 30px;
+	margin-top: 0px;
+	float: left;
+	border-top: solid 5px grey;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	}
+
+	.portimg {
+	height: 180px;
+	float: left;
+	margin: 15px;
+	}
+
+#myname {
+	height: 65px;
+	width: 240px;
+	background-color: #3FAAA5;
+	color: white;
+	padding-top: 35px; 
+	margin-bottom: 0px;
+	position: relative;
+	top: 0px;
+	left: 20px;
+}
+
+}
+
+
+@media screen and (max-width: 640px) {
+
+body { 
+	background-color: #F1A699; 
+	background-image: none;
+
+}
+
+#aboutme {
+	width: 100%;
+	height: 100%;
+	margin: 0px;
+	float: left;
+	margin-top: 130px;
+
+
+}	
+
+#placeHolderImg{
+	height: 100%;
+	padding: 1px;
+	margin: 1px;
+}
+
+#paragraph {
+	width: 550px;
+}
+
+.contactme {
+	width: 100%;
+	height: 100%;
+	border: solid 2px grey;
+	float: left;
+	background-color: white;
+	position: relative;
+	top: 10px;
+	left: 20px;
+	margin-bottom: 100px;
+}
+
+#paragraphport {
+	height: 100%;
+	width: 550px;
+	padding: 5px 0px;
+	margin-left: 30px;
+	margin-top: 0px;
+	float: left;
+	border-top: solid 5px grey;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	}
+
+	.portimg {
+	height: 180px;
+	float: left;
+	margin: 15px;
+	}
+
+#myname {
+	height: 50px;
+	font-size: 10px;
+	width: 100%;
+	background-color: #3FAAA5;
+	color: white;
+	padding-top: 10px; 
+	margin-bottom: 10px;
+	margin-left: -20px;
+
+	}
+
+
+nav {
+	float: middle;
+	padding-top: 30px;
+	text-align: center; 
+	color: #cccccc;
+	margin-left: -70px;
+
+	}
+	p{
+		padding: 10px;
+		text-align: center;
+	}
 }
 
 
