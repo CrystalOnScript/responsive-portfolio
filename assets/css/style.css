@@ -234,7 +234,8 @@ body {
 }	
 
 #placeHolderImg{
-	height: 100px;
+	width: 100%;
+	max-width: 380px;
 }
 
 #paragraph {
@@ -294,7 +295,8 @@ body {
 }	
 
 #placeHolderImg{
-	height: 100px;
+	width: 300px;
+	height: auto;
 }
 
 #paragraph {
@@ -347,86 +349,103 @@ body {
 
 @media screen and (max-width: 640px) {
 
-body { 
-	background-color: #F1A699; 
-	background-image: none;
+nav {
+	clear: both;
+	color: #cccccc;
+	position: absolute;
+	right: 0px;
+	top: 100px;
+	background: white;
+	width: 100%;
+	text-align: center;
+	height: 20px;
+	padding-top: 10px;
+	border-bottom: solid 2px #666666;
+}
+header {
+	height: 100px;
+	width: 100%;
+	font-family: 'Georgia', Times, serif;
+	font-size: 12px;
+	text-align: center;
+	letter-spacing: 2px;
+	border-bottom: solid 2px #666666;
+	background-color: #3FAAA5;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+}
 
+#myname {
+	height: 40px;
+	width: 100%;
+	background-color: #3FAAA5;
+	color: white;
+	padding-top: 35px; 
+	margin-left: -40px;
+	margin-right: -40px;
+	position: relative;
+	top: 0px;
+	left: 20px;
 }
 
 #aboutme {
+	max-width: 400px;
 	width: 100%;
 	height: 100%;
-	margin: 0px;
-	float: left;
-	margin-top: 130px;
-
 
 }	
 
+ #pagecontent {
+ 	position: relative;
+ 	top: 10px;
+ 	left: -15px;
+ 	width: 100%;
+}
+
 #placeHolderImg{
-	height: 100%;
-	padding: 1px;
-	margin: 1px;
+	width: 100%;
+	max-width: 380px;
 }
 
 #paragraph {
-	width: 550px;
+	width: 350px;
 }
 
 .contactme {
 	width: 100%;
-	height: 100%;
+	height: 200px;
 	border: solid 2px grey;
 	float: left;
 	background-color: white;
-	position: relative;
-	top: 10px;
+	position: absolute;
 	left: 20px;
-	margin-bottom: 100px;
+	top: 680px;
+	max-width: 400px;
 }
 
 #paragraphport {
 	height: 100%;
-	width: 550px;
+	width: 350px;
 	padding: 5px 0px;
 	margin-left: 30px;
 	margin-top: 0px;
 	float: left;
+	line-height: 15px;
 	border-top: solid 5px grey;
+	letter-spacing: 2px;
+	font-size: 12px;
+
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 	}
 
 	.portimg {
-	height: 180px;
+	height: 190px;
 	float: left;
-	margin: 15px;
-	}
+	margin: 20px 20px 20px 50px;
+}
 
-#myname {
-	height: 50px;
-	font-size: 10px;
-	width: 100%;
-	background-color: #3FAAA5;
-	color: white;
-	padding-top: 10px; 
-	margin-bottom: 10px;
-	margin-left: -20px;
-
-	}
-
-
-nav {
-	float: middle;
-	padding-top: 30px;
-	text-align: center; 
-	color: #cccccc;
-	margin-left: -70px;
-
-	}
-	p{
-		padding: 10px;
-		text-align: center;
-	}
 }
 
 
