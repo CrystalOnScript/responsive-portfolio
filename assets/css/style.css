@@ -419,9 +419,9 @@ header {
 	border: solid 2px grey;
 	float: left;
 	background-color: white;
-	position: absolute;
+	position: relative;
 	left: 20px;
-	top: 680px;
+	top: 10px;
 	max-width: 400px;
 }
 
